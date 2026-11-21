@@ -215,7 +215,7 @@ async function createServer() {
 
   const port = Number(process.env.PORT || 3000);
   app.listen(port, '0.0.0.0', () => {
-    console.log(`MindMate server running at http://0.0.0.0:${port}`);
+    console.log(`[MindMate — AI Mental Health Assistant](http://localhost:${port}/)`);
   });
 }
 
