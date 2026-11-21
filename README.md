@@ -71,6 +71,10 @@ npx tsx --test src/utils/core.test.ts
 
 # Production build
 npm run build
+
+OR
+# run direct all together
+run nodemon 
 ```
 
 ## 3. Run the Python Assistant
